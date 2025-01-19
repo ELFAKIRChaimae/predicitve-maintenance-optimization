@@ -24,7 +24,18 @@ This project presents an innovative approach to optimize predictive maintenance 
   - NASA CMAPSS dataset
 
 ---
+## Usage
 
+## 1. Training
+Run the following command to train the RL agent on the CMAPSS dataset:
+```bash
+python scripts/train_model.py
+
+
+
+
+
+---
 ## Installation
 
 ### 1. Prerequisites
@@ -37,29 +48,3 @@ Ensure the following are installed:
 git clone https://github.com/ELFAKIRChaimae/predicitve-maintenance-optimization.git
 cd predicitve-maintenance-optimization
 pip install -r requirements.txt
-
----
-
-
-
-# Usage
-
-## 1. Training
-Run the following command to train the RL agent on the CMAPSS dataset:
-```bash
-python scripts/train_model.py
-
-
-bash
-Copier
-Modifier
-python scripts/train_model.py
-## 2. Testing
-After training, test the learned policies with:
-
-bash
-Copier
-Modifier
-python scripts/test_model.py
-3. Visualization
-### Metrics and graphs will be saved in the results/ directory.
