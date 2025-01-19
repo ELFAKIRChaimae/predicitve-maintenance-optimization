@@ -42,9 +42,13 @@ pip install -r requirements.txt
 
 
 
-### Usage
+# Usage
+
 ## 1. Training
 Run the following command to train the RL agent on the CMAPSS dataset:
+```bash
+python scripts/train_model.py
+
 
 bash
 Copier
