@@ -24,18 +24,6 @@ This project presents an innovative approach to optimize predictive maintenance 
   - NASA CMAPSS dataset
 
 ---
-## Usage
-
-## 1. Training
-Run the following command to train the RL agent on the CMAPSS dataset:
-```bash
-python scripts/train_model.py
-
-
-
-
-
----
 ## Installation
 
 ### 1. Prerequisites
