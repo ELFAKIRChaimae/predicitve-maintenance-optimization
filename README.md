@@ -38,6 +38,10 @@ git clone https://github.com/ELFAKIRChaimae/predicitve-maintenance-optimization.
 cd predicitve-maintenance-optimization
 pip install -r requirements.txt
 
+---
+
+
+
 ### Usage
 ## 1. Training
 Run the following command to train the RL agent on the CMAPSS dataset:
